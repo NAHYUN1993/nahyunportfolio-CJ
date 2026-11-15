@@ -1,26 +1,22 @@
 .cj-channel{scroll-margin-top:90px}.cj-channel>p{max-width:850px;line-height:1.8;margin:16px 0;color:#34434c}.cj-channel .cj-lead{font-size:clamp(20px,2.4vw,30px);font-weight:650;color:#172831}.cj-episodes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:32px 0}.cj-episode{display:block;color:inherit;text-decoration:none}.cj-episode img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px}.cj-episode span{display:block;font-weight:600;line-height:1.6;margin-top:12px}.cj-channel-link{display:inline-block;color:inherit;font-weight:650;padding:12px 0;text-underline-offset:6px}.cj-episode:focus-visible,.cj-channel-link:focus-visible{outline:3px solid #2267b8;outline-offset:5px}@media(max-width:650px){.cj-episodes{grid-template-columns:1fr;gap:28px}}
 
-/* White surfaces and CJ Blue throughout the application portfolio. */
-:root{--paper:#fff;--paper-2:#f1f7fc;--ink:#253746;--ink-2:#506475;--line:#d8e5ef;--accent:#006ECD;--accent-text:#006ECD;--accent-ink:#fff;--ak-ink-3:#506475}
-body.blue-portfolio{background:#fff;color:var(--ink)}
-.blue-portfolio .site-header{background:#fff;border-top:3px solid #006ECD;border-bottom:1px solid var(--line);border-image:none}
-.blue-portfolio #portfolio-nav a{color:#506475}.blue-portfolio #portfolio-nav a.is-active,.blue-portfolio #portfolio-nav a[data-nav="hero"]{color:#006ECD;text-decoration-color:#006ECD;border-color:#006ECD}
-.blue-portfolio #hero.showreel-banner{background:#fff}
-.blue-portfolio .creator-intro{position:relative;inset:auto;margin:0;padding:0;background:#fff;color:#006ECD}
-.blue-portfolio .creator-intro-inner{padding:30px 0 38px}
-.blue-portfolio .creator-intro h1,.blue-portfolio .creator-intro .intro-role{color:#006ECD}
-.blue-portfolio .creator-intro li{color:#506475}
-.blue-portfolio .reel-open{background:#fff;color:#006ECD;border:1px solid #006ECD}
-.blue-portfolio .reel-open:hover{background:#f1f7fc;color:#006ECD}
-.blue-portfolio .reel-open:focus-visible,.blue-portfolio #portfolio-nav a:focus-visible{outline-color:#006ECD}
+/* Original layout retained; flat CJ Blue palette. */
+:root{--paper:#e5f0fa;--paper-2:#f1f7fc;--ink:#004e94;--ink-2:#235c8d;--line:#afcde7;--accent:#006ECD;--accent-text:#006ECD;--accent-ink:#fff;--ak-ink-3:#235c8d}
+body.blue-portfolio{background:var(--paper);color:var(--ink)}
+.blue-portfolio .site-header{background:#006ECD;border:0;border-image:none}
+.blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active{color:#fff;text-decoration-color:#fff;border-color:#fff}
+.blue-portfolio #hero.showreel-banner{background:#006ECD}
+.blue-portfolio .creator-intro{background:#006ECD;color:#fff}
+.blue-portfolio .creator-intro h1,.blue-portfolio .creator-intro p,.blue-portfolio .creator-intro li{color:#fff}
+.blue-portfolio .reel-open{background:#fff;color:#006ECD;border:1px solid #fff}
+.blue-portfolio .reel-open:hover{background:#e5f0fa;color:#006ECD}
+.blue-portfolio .reel-open:focus-visible,.blue-portfolio #portfolio-nav a:focus-visible{outline-color:#fff}
 .blue-portfolio #featured .featured-head h2,.blue-portfolio .sec-head h2,.blue-portfolio #channel .sec-head h2,.blue-portfolio #research .sec-head h2,.blue-portfolio .ak-archive-title{color:#006ECD}
 .blue-portfolio #research .sec-head{border-left:0;padding-left:0}
-.blue-portfolio .project-media,.blue-portfolio .card-media,.blue-portfolio .mos,.blue-portfolio .motion-stills img,.blue-portfolio .row-thumb{background:#f1f7fc}
-.blue-portfolio .project-badge{background:#fff;color:#006ECD}.blue-portfolio .case-reader{background:#fff}
-.blue-portfolio #footer{background:#f1f7fc}
-.blue-portfolio .ak-award{background:#fff;color:#006ECD;border:1px solid #d8e5ef}.blue-portfolio .ak-award-mark{color:#006ECD}
-.cj-channel .cj-lead,.cj-episode span{color:#006ECD}.cj-channel-link{color:#006ECD}
-@media(max-width:760px){.blue-portfolio .creator-intro{margin:0;padding:0}.blue-portfolio .creator-intro-inner{padding:24px var(--pad) 30px}}
-.cj-production{margin:28px 0;padding:28px;background:#f4f7fb;border-top:3px solid #006ECD}.cj-production h3{font-size:20px;margin:0 0 14px}.cj-production p{line-height:1.8;margin:0 0 28px}.cj-process{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;padding:0;margin:0}.cj-process li{counter-increment:step;line-height:1.7}.cj-process li:before{content:'0' counter(step);display:block;color:#006ECD;font-size:26px;font-weight:750;margin-bottom:12px}.cj-process strong,.cj-process span{display:block}.cj-process span{margin-top:8px;font-size:14px;color:#465563}.cj-process li:nth-child(3):before{color:#006ECD}.cj-process li:last-child:before{color:#006ECD}@media(max-width:850px){.cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.cj-process{grid-template-columns:1fr}.cj-production{padding:22px}}
-.blue-portfolio .showreel-background{max-height:52svh;object-fit:contain;background:#fff}
-@media(max-width:760px){.blue-portfolio .showreel-background{max-height:none}}
+.blue-portfolio .project-media,.blue-portfolio .card-media,.blue-portfolio .mos,.blue-portfolio .motion-stills img,.blue-portfolio .row-thumb{background:#cde2f5}
+.blue-portfolio .project-badge{background:#f1f7fc;color:#004e94}
+.blue-portfolio .case-reader,.blue-portfolio .ak-sheet-panel{background:#e5f0fa;color:#004e94}
+.blue-portfolio #footer{background:#cde2f5}
+.blue-portfolio .ak-award{background:#006ECD;color:#fff}.blue-portfolio .ak-award-mark{color:#fff}
+.cj-channel>p{color:#235c8d}.cj-channel .cj-lead,.cj-episode span{color:#004e94}.cj-channel-link{color:#006ECD}
+.cj-production{margin:28px 0;padding:28px;background:#cde2f5;border-top:3px solid #006ECD}.cj-production h3{font-size:20px;margin:0 0 14px}.cj-production p{line-height:1.8;margin:0 0 28px}.cj-process{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;padding:0;margin:0}.cj-process li{counter-increment:step;line-height:1.7}.cj-process li:before{content:'0' counter(step);display:block;color:#006ECD;font-size:26px;font-weight:750;margin-bottom:12px}.cj-process strong,.cj-process span{display:block}.cj-process span{margin-top:8px;font-size:14px;color:#235c8d}.cj-process li:nth-child(3):before{color:#006ECD}.cj-process li:last-child:before{color:#006ECD}@media(max-width:850px){.cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.cj-process{grid-template-columns:1fr}.cj-production{padding:22px}}
