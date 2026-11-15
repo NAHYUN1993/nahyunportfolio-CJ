@@ -20,3 +20,13 @@ body.blue-portfolio{background:var(--paper);color:var(--ink)}
 .blue-portfolio .ak-award{background:#006ECD;color:#fff}.blue-portfolio .ak-award-mark{color:#fff}
 .cj-channel>p{color:#235c8d}.cj-channel .cj-lead,.cj-episode span{color:#004e94}.cj-channel-link{color:#006ECD}
 .cj-production{margin:28px 0;padding:28px;background:#cde2f5;border-top:3px solid #006ECD}.cj-production h3{font-size:20px;margin:0 0 14px}.cj-production p{line-height:1.8;margin:0 0 28px}.cj-process{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;padding:0;margin:0}.cj-process li{counter-increment:step;line-height:1.7}.cj-process li:before{content:'0' counter(step);display:block;color:#006ECD;font-size:26px;font-weight:750;margin-bottom:12px}.cj-process strong,.cj-process span{display:block}.cj-process span{margin-top:8px;font-size:14px;color:#235c8d}.cj-process li:nth-child(3):before{color:#006ECD}.cj-process li:last-child:before{color:#006ECD}@media(max-width:850px){.cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.cj-process{grid-template-columns:1fr}.cj-production{padding:22px}}
+/* Supporting CJ colors: small landmarks, not large background fields. */
+:root{--cj-red:#EF151E;--cj-orange:#FF9700}
+.blue-portfolio #portfolio-nav a.is-active{text-decoration-color:var(--cj-orange);text-decoration-thickness:3px;border-color:var(--cj-orange)}
+.blue-portfolio #channel .sec-head h2::before,.blue-portfolio #research .sec-head h2::before{content:'';display:inline-block;width:10px;height:10px;margin-right:12px;border-radius:50%;background:var(--cj-red);vertical-align:middle}
+.blue-portfolio #research .sec-head h2::before{background:var(--cj-orange)}
+.cj-production{border-top-color:var(--cj-orange)}
+.cj-process li::before{border-bottom:3px solid #006ECD;width:38px;padding-bottom:7px}
+.cj-process li:nth-child(3)::before{border-bottom-color:var(--cj-red)}
+.cj-process li:last-child::before{border-bottom-color:var(--cj-orange)}
+.blue-portfolio .project-badge{border-left:3px solid var(--cj-orange)}
