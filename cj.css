@@ -13,3 +13,8 @@ body.blue-portfolio{background:#fff;color:#17212b}
 .blue-portfolio .project-media,.blue-portfolio .card-media{background:#eef2f6}
 .blue-portfolio .project-badge{background:#fff;color:#17212b}.blue-portfolio .case-reader{background:#fff}
 .cj-production{margin:28px 0;padding:28px;background:#f4f7fb;border-top:3px solid #006ECD}.cj-production h3{font-size:20px;margin:0 0 14px}.cj-production p{line-height:1.8;margin:0 0 28px}.cj-process{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;padding:0;margin:0}.cj-process li{counter-increment:step;line-height:1.7}.cj-process li:before{content:'0' counter(step);display:block;color:#006ECD;font-size:26px;font-weight:750;margin-bottom:12px}.cj-process strong,.cj-process span{display:block}.cj-process span{margin-top:8px;font-size:14px;color:#465563}.cj-process li:nth-child(3):before{color:#c61019}.cj-process li:last-child:before{color:#9a5900}@media(max-width:850px){.cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.cj-process{grid-template-columns:1fr}.cj-production{padding:22px}}
+/* Keep the reel's own colors; reserve brand colors for navigation and accents. */
+.blue-portfolio #hero.showreel-banner{background:#111418}
+.blue-portfolio .creator-intro{background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.48) 45%,rgba(0,0,0,.82) 100%);color:#fff}
+.blue-portfolio .reel-open{background:#fff;color:#17212b;border:1px solid rgba(255,255,255,.7)}
+.blue-portfolio .reel-open:hover{background:#f0f2f4;color:#17212b}
