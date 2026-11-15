@@ -831,7 +831,8 @@ const techStack = [
 const SECTIONS = [
   { id: 'hero', label: 'LEE NA HYUN' },
   { id: 'selected', label: '대표 영상' },
-  { id: 'workflows', label: '제작 자동화' },
+  { id: 'channel', label: '채널 운영' },
+  { id: 'workflows', label: 'AI 워크플로' },
   { id: 'research', label: '캐릭터 연구' },
   { id: 'archive', label: '전체 작업' }
 ];
