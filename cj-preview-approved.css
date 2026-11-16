@@ -101,3 +101,6 @@ body.blue-portfolio{background:#e7e8ea;color:#164d7b}
 }
 
 .blue-portfolio #channel .cj-episodes{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+/* Crop the letterboxed YouTube thumbnail to the native Shorts frame. */
+.blue-portfolio #channel .cj-episode img{aspect-ratio:9/16;object-fit:cover;object-position:center;width:100%}
