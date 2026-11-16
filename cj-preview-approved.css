@@ -1,0 +1,93 @@
+.cj-channel{scroll-margin-top:90px}.cj-channel>p{max-width:850px;line-height:1.8;margin:16px 0;color:#34434c}.cj-channel .cj-lead{font-size:clamp(20px,2.4vw,30px);font-weight:650;color:#172831}.cj-episodes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:32px 0}.cj-episode{display:block;color:inherit;text-decoration:none}.cj-episode img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px}.cj-episode span{display:block;font-weight:600;line-height:1.6;margin-top:12px}.cj-channel-link{display:inline-block;color:inherit;font-weight:650;padding:12px 0;text-underline-offset:6px}.cj-episode:focus-visible,.cj-channel-link:focus-visible{outline:3px solid #2267b8;outline-offset:5px}@media(max-width:650px){.cj-episodes{grid-template-columns:1fr;gap:28px}}
+
+/* Original layout retained; flat CJ Blue palette. */
+:root{--paper:#e5f0fa;--paper-2:#f1f7fc;--ink:#004e94;--ink-2:#235c8d;--line:#afcde7;--accent:#006ECD;--accent-text:#006ECD;--accent-ink:#fff;--ak-ink-3:#235c8d}
+body.blue-portfolio{background:var(--paper);color:var(--ink)}
+.blue-portfolio .site-header{background:#006ECD;border:0;border-image:none}
+.blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active{color:#fff;text-decoration-color:#fff;border-color:#fff}
+.blue-portfolio #hero.showreel-banner{background:#006ECD}
+.blue-portfolio .creator-intro{background:#006ECD;color:#fff}
+.blue-portfolio .creator-intro h1,.blue-portfolio .creator-intro p,.blue-portfolio .creator-intro li{color:#fff}
+.blue-portfolio .reel-open{background:#fff;color:#006ECD;border:1px solid #fff}
+.blue-portfolio .reel-open:hover{background:#e5f0fa;color:#006ECD}
+.blue-portfolio .reel-open:focus-visible,.blue-portfolio #portfolio-nav a:focus-visible{outline-color:#fff}
+.blue-portfolio #featured .featured-head h2,.blue-portfolio .sec-head h2,.blue-portfolio #channel .sec-head h2,.blue-portfolio #research .sec-head h2,.blue-portfolio .ak-archive-title{color:#006ECD}
+.blue-portfolio #research .sec-head{border-left:0;padding-left:0}
+.blue-portfolio .project-media,.blue-portfolio .card-media,.blue-portfolio .mos,.blue-portfolio .motion-stills img,.blue-portfolio .row-thumb{background:#cde2f5}
+.blue-portfolio .project-badge{background:#f1f7fc;color:#004e94}
+.blue-portfolio .case-reader,.blue-portfolio .ak-sheet-panel{background:#e5f0fa;color:#004e94}
+.blue-portfolio #footer{background:#cde2f5}
+.blue-portfolio .ak-award{background:#006ECD;color:#fff}.blue-portfolio .ak-award-mark{color:#fff}
+.cj-channel>p{color:#235c8d}.cj-channel .cj-lead,.cj-episode span{color:#004e94}.cj-channel-link{color:#006ECD}
+.cj-production{margin:28px 0;padding:28px;background:#cde2f5;border-top:3px solid #006ECD}.cj-production h3{font-size:20px;margin:0 0 14px}.cj-production p{line-height:1.8;margin:0 0 28px}.cj-process{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;padding:0;margin:0}.cj-process li{counter-increment:step;line-height:1.7}.cj-process li:before{content:'0' counter(step);display:block;color:#006ECD;font-size:26px;font-weight:750;margin-bottom:12px}.cj-process strong,.cj-process span{display:block}.cj-process span{margin-top:8px;font-size:14px;color:#235c8d}.cj-process li:nth-child(3):before{color:#006ECD}.cj-process li:last-child:before{color:#006ECD}@media(max-width:850px){.cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.cj-process{grid-template-columns:1fr}.cj-production{padding:22px}}
+
+/* Composed CJ proposal: video first, compact identity, purposeful color roles. */
+:root{--paper:#e7e8ea;--paper-2:#f0f1f2;--ink:#164d7b;--ink-2:#44647f;--line:#c5d1dc;--accent:#006ECD;--accent-text:#006ECD}
+.blue-portfolio .site-header{background:#e7e8ea;min-height:72px;border:0}
+.blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active{color:#006ECD;text-decoration:none;border:0;min-height:72px;font-size:14px}
+.blue-portfolio #portfolio-nav a[data-nav="hero"]{font-weight:750;margin-right:36px}
+.blue-portfolio #portfolio-nav a.is-active:not([data-nav="hero"]){text-decoration:underline;text-decoration-color:#ef151e;text-decoration-thickness:3px;text-underline-offset:9px}
+.blue-portfolio #hero.showreel-banner{background:#006ECD;padding:32px var(--pad) 0;overflow:hidden}
+.blue-portfolio .showreel-background{display:block;width:100%;max-width:1100px;height:auto;aspect-ratio:16/9;max-height:52svh;object-fit:contain;margin:auto;background:transparent}
+.blue-portfolio .creator-intro{position:relative;inset:auto;margin:0;padding:0;background:#006ECD;color:#e7e8ea}
+.blue-portfolio .creator-intro::before,.blue-portfolio .creator-intro::after{content:none;display:none}
+.blue-portfolio .creator-intro-inner{max-width:1100px;padding:28px 0 36px;gap:36px;align-items:center}
+.blue-portfolio .creator-intro h1{font-size:42px;letter-spacing:-.03em;color:#e7e8ea}
+.blue-portfolio .creator-intro .intro-name-en{color:#e7e8ea;font-size:24px}
+.blue-portfolio .creator-intro p,.blue-portfolio .creator-intro li,.blue-portfolio .creator-intro .intro-role{color:#e7e8ea}
+.blue-portfolio .intro-role{font-size:15px;margin-top:10px}
+.blue-portfolio .intro-role span{font-size:12px!important;margin-top:8px!important}
+.blue-portfolio .intro-detail{font-size:14px;margin-top:16px;line-height:1.8}
+.blue-portfolio .reel-open{background:#ffbd20;color:#00549e;border:0;min-height:50px;padding:14px 24px;font-weight:700;border-radius:28px}
+.blue-portfolio .reel-open:hover{background:#ffd05b;color:#00549e}
+.blue-portfolio .sec-head h2::before{display:none;content:none}
+.blue-portfolio #channel .sec-head h2,.blue-portfolio #research .sec-head h2,.blue-portfolio #featured .featured-head h2{color:#006ECD}
+.cj-production{background:#d6e4f0;border-top-color:#006ECD}
+.cj-process li:nth-child(3)::before,.cj-process li:last-child::before{color:#006ECD}
+@media(max-width:760px){.blue-portfolio .site-header{min-height:54px}.blue-portfolio #portfolio-nav a{min-height:54px;font-size:12px}.blue-portfolio #portfolio-nav a[data-nav="hero"]{margin-right:8px}.blue-portfolio #hero.showreel-banner{padding:16px var(--pad) 0}.blue-portfolio .showreel-background{max-height:none}.blue-portfolio .creator-intro-inner{display:block;padding:24px 0 30px}.blue-portfolio .creator-intro h1{font-size:34px}.blue-portfolio .creator-intro .intro-name-en{font-size:20px}.blue-portfolio .reel-open{margin-top:22px}}
+/* Requested large reel and gray/yellow navigation, red CTA. */
+.blue-portfolio .showreel-background{max-width:1472px;width:100%;height:auto;max-height:none;aspect-ratio:16/9;object-fit:contain}
+.blue-portfolio .site-header{background:#73777d}
+.blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active,.blue-portfolio #portfolio-nav a[data-nav="hero"]{color:#ffcf45}
+.blue-portfolio .reel-open,.blue-portfolio .reel-open:hover{background:#ef151e;color:#fff;border-color:#ef151e}
+/* Yellow navigation bar, blue menu labels. */
+.blue-portfolio .site-header{background:#ffcf45}
+.blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active,.blue-portfolio #portfolio-nav a[data-nav="hero"]{color:#00549e}
+/* Full-page review: the approved main palette continued below. */
+body.blue-portfolio{background:#e7e8ea;color:#164d7b}
+.blue-portfolio #portfolio-content,.blue-portfolio #stack{background:#e7e8ea}
+.blue-portfolio #featured .featured-head h2,.blue-portfolio .sec-head h2,.blue-portfolio .ak-archive-title{color:#006ECD}
+.blue-portfolio .project-copy h3,.blue-portfolio .ak-support-grid h3,.blue-portfolio .career-flow h3,.blue-portfolio .cj-lead,.blue-portfolio .cj-episode span{color:#006ECD}
+.blue-portfolio .project-category,.blue-portfolio .ak-sec-sub,.blue-portfolio .section-note{color:#44647f}
+.blue-portfolio .project-open,.blue-portfolio .ak-card-play{background:#ef151e;color:#fff}
+.blue-portfolio .project-hit:hover .project-open{background:#cd1620;color:#fff}
+.blue-portfolio .project-badge,.blue-portfolio .ak-award{background:#ffcf45;color:#00549e;border:0}
+.blue-portfolio .cj-production{background:#d3e2ef;border-top:3px solid #006ECD}
+.blue-portfolio .cj-production h3,.blue-portfolio .cj-process li::before{color:#006ECD}
+.blue-portfolio .cj-process li::before{border:0}
+.blue-portfolio .cj-process span,.blue-portfolio .cj-channel>p{color:#315c80}
+.blue-portfolio .cj-channel-link{color:#006ECD;text-decoration-color:#ef151e}
+.blue-portfolio .ak-tabs button[aria-selected="true"],.blue-portfolio .chip.is-on{background:#ffcf45;color:#00549e;border-color:#ffcf45}
+.blue-portfolio #work .video-pagination button[aria-current="page"]{background:#006ECD;color:#e7e8ea;border-color:#006ECD}
+.blue-portfolio .case-reader,.blue-portfolio .ak-sheet-panel,.blue-portfolio #modal .modal-inner{background:#e7e8ea;color:#164d7b}
+.blue-portfolio .case-tabs button[aria-selected="true"]{color:#006ECD;border-color:#ef151e}
+.blue-portfolio .ak-research-findings,.blue-portfolio .ak-res li,.blue-portfolio .ak-comparison-label{background:#d3e2ef;color:#164d7b}
+.blue-portfolio .tool-list li{color:#315c80}
+/* Compact channel section: preserve every sentence and episode. */
+.blue-portfolio #channel{display:grid;grid-template-columns:1.15fr 1fr;column-gap:32px;row-gap:12px;padding-top:48px;padding-bottom:48px}
+.blue-portfolio #channel>.sec-head{grid-column:1/-1;margin-bottom:8px}
+.blue-portfolio #channel>p{grid-column:1/-1;max-width:none;margin:0;line-height:1.65}
+.blue-portfolio #channel>.cj-lead{font-size:22px}
+.blue-portfolio #channel .cj-production{grid-column:1;margin:12px 0 0;padding:20px}
+.blue-portfolio #channel .cj-production h3{font-size:16px;margin:0 0 8px}
+.blue-portfolio #channel .cj-production p{font-size:14px;line-height:1.65;margin:0 0 16px}
+.blue-portfolio #channel .cj-process{gap:12px;grid-template-columns:repeat(5,minmax(0,1fr))}
+.blue-portfolio #channel .cj-process li{font-size:12px;line-height:1.55}
+.blue-portfolio #channel .cj-process li::before{font-size:20px;margin-bottom:6px}
+.blue-portfolio #channel .cj-process span{font-size:12px;margin-top:4px}
+.blue-portfolio #channel .cj-episodes{grid-column:2;grid-row:4;align-self:center;gap:12px;margin:12px 0 0}
+.blue-portfolio #channel .cj-episode img{aspect-ratio:4/3;border-radius:8px}
+.blue-portfolio #channel .cj-episode span{font-size:12px;line-height:1.6;margin-top:8px}
+.blue-portfolio #channel .cj-channel-link{grid-column:2;margin-top:-8px;padding:0;font-size:13px}
+@media(max-width:900px){.blue-portfolio #channel{display:block}.blue-portfolio #channel>p{margin:10px 0}.blue-portfolio #channel .cj-production{margin:20px 0}.blue-portfolio #channel .cj-episodes{margin:20px 0}.blue-portfolio #channel .cj-channel-link{margin:0}.blue-portfolio #channel .cj-process{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:500px){.blue-portfolio #channel .cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}.blue-portfolio #channel .cj-episodes{grid-template-columns:repeat(3,minmax(0,1fr))}}
