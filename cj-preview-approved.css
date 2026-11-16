@@ -99,3 +99,5 @@ body.blue-portfolio{background:#e7e8ea;color:#164d7b}
 .blue-portfolio #portfolio-nav #nav-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 10px;width:100%}
 .blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active,.blue-portfolio #portfolio-nav a[data-nav="hero"]{min-height:40px;margin:0;font-size:12px;justify-content:center;white-space:nowrap}
 }
+
+.blue-portfolio #channel .cj-episodes{grid-template-columns:repeat(2,minmax(0,1fr))}
