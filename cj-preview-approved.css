@@ -91,3 +91,11 @@ body.blue-portfolio{background:#e7e8ea;color:#164d7b}
 .blue-portfolio #channel .cj-channel-link{grid-column:2;margin-top:-8px;padding:0;font-size:13px}
 @media(max-width:900px){.blue-portfolio #channel{display:block}.blue-portfolio #channel>p{margin:10px 0}.blue-portfolio #channel .cj-production{margin:20px 0}.blue-portfolio #channel .cj-episodes{margin:20px 0}.blue-portfolio #channel .cj-channel-link{margin:0}.blue-portfolio #channel .cj-process{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:500px){.blue-portfolio #channel .cj-process{grid-template-columns:repeat(2,minmax(0,1fr))}.blue-portfolio #channel .cj-episodes{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* Keep every navigation item visible on narrow screens. */
+@media(max-width:600px){
+.blue-portfolio .site-header{min-height:80px;padding:0 16px}
+.blue-portfolio #portfolio-nav{width:100%;min-width:0}
+.blue-portfolio #portfolio-nav #nav-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 10px;width:100%}
+.blue-portfolio #portfolio-nav a,.blue-portfolio #portfolio-nav a.is-active,.blue-portfolio #portfolio-nav a[data-nav="hero"]{min-height:40px;margin:0;font-size:12px;justify-content:center;white-space:nowrap}
+}
